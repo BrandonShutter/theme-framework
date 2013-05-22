@@ -1,0 +1,13 @@
+/* IE Specific Styling */
+
+.button {
+	line-height: 31px;
+}
+
+.required:after {
+	top: 9px !important;
+}
+
+.required.textarea:after {
+	right: 30px;
+}

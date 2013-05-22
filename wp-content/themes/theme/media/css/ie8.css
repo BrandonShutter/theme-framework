@@ -1,0 +1,21 @@
+/* IE-8 Specific Styling */
+
+.home-slider .callouts a p {
+	font-size: 11px;
+}
+
+.home-slider .callouts a:before {
+	left: -3px;
+	bottom: -3px;
+}
+
+.portrait .overlay {
+	background: black;
+	filter: alpha(opacity=40);
+}
+
+.portrait .overlay:after { filter: alpha(opacity=100) !important; }
+
+.bottom nav li:last-child:after { content: ''; }
+
+.dropdown { display: block !important; }
