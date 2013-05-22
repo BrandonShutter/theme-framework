@@ -15,7 +15,8 @@ if ( ! defined('ABSPATH') ) exit;
  * Update Content Links
  *
  * First we check to see if the site url has been updated. If it has, then we
- * update links located in all post types to be based off the new url
+ * update links located in all post types to be based off the new url. We
+ * also flush the rewrite rules to reset all links ( permalinks included )
  *
  * @since       1.0
  * @return      void
@@ -44,6 +45,8 @@ function chp_update_content_links() {
             ));
 
         }
+
+        flush_rewrite_rules();
 
     }
 
