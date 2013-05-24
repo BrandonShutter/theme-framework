@@ -4,7 +4,7 @@
  *
  * @author 		CHP Advertising
  * @package 	CHP Theme Framework
- * @since       1.0
+ * @since       2.0
  */
 ?>
 

@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Registers the theme menus
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -31,7 +31,7 @@ function chp_register_menus() {
  *
  * Customizes the default WP menu args
  *
- * @since       1.0
+ * @since       2.0
  * @param       $args - the menu args
  * @return      array
 */
@@ -52,7 +52,7 @@ function chp_custom_menu( $args = '' ) {
 /**
  * Custom Menu Walker
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: CHP Framework
 Description: A simple framework that offers generic functionality for themes.
-Version: 1.0
+Version: 2.0
 Author: Patrick Miravalle / CHP Advertising
 Author URI: http://chpadvertising.com
 */
@@ -96,14 +96,14 @@ if ( ! defined('THEME_JS') )
 /* ------ Initiate ------------------------------------------------------- *|
 /* ----------------------------------------------------------------------- */
 
-define('CHP_VERSION', '1.0');
+define('CHP_VERSION', '2.0');
 
 /**
  * CHP Framework Class
  *
  * @package    CHP Framework
  * @author     CHP Advertising
- * @since      1.0
+ * @since      2.0
  */
 
 class CHP_Framework {

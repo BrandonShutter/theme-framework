@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -18,7 +18,7 @@ if ( ! defined('ABSPATH') ) exit;
  * update links located in all post types to be based off the new url. We
  * also flush the rewrite rules to reset all links ( permalinks included )
  *
- * @since       1.0
+ * @since       2.0
  * @return      void
 */
 

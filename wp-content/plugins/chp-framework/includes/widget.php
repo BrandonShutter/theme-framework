@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Registers theme sidebars
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -47,7 +47,7 @@ add_action('widgets_init', 'chp_register_sidebars', 5 );
 /**
  * Registers all widgets
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -157,7 +157,7 @@ class CHP_Widget extends WP_Widget {
 	 * Adds a class to the widget container provided
 	 *
 	 * @access      private
-	 * @since       1.0
+	 * @since       2.0
 	 * @param       $class
 	 * @param       $target
 	 * @return      string

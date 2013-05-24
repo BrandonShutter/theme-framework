@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Includes all files from the directory or directories provided ( so long as they exist ).
  *
- * @since       1.0
+ * @since       2.0
  * @param       array $directories
  * @return      void
 */
@@ -36,7 +36,7 @@ function chp_include_files( $directories ) {
 /**
  * Returns all class names that are children of the parent provided
  *
- * @since       1.0
+ * @since       2.0
  * @param       $parent - the parent class to be used for the query
  * @return      void
 */

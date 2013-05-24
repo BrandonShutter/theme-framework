@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -16,7 +16,7 @@ if ( ! defined('ABSPATH') ) exit;
  *
  * Removes unnecessary ( in our case ) elements from the admin panel
  *
- * @since       1.0
+ * @since       2.0
  * @return      void
 */
 
@@ -118,7 +118,7 @@ function chp_admin_general_cleanup() {
  *
  * Removes unnecessary widgets from the WP Dashboard
  *
- * @since       1.0
+ * @since       2.0
  * @return      void
 */
 
@@ -192,7 +192,7 @@ function chp_admin_dashboard_cleanup() {
 /**
  * Removes the unnessary ( in our case ) WP Widgets
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -221,7 +221,7 @@ function chp_admin_widgets_cleanup() {
 /**
  * Removes unnessary ( in our case ) links from the WP Admin Bar
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 

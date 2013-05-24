@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -21,7 +21,7 @@ add_filter('login_errors', create_function('$a', 'return null;') );
  *
  * Adds a custom logo to the login page
  *
- * @since       1.0
+ * @since       2.0
  * @return      string - the logo styling
 */
 
@@ -55,7 +55,7 @@ function chp_login_logo() {
  *
  * Changes the login logo title to the site's title
  *
- * @since       1.0
+ * @since       2.0
  * @return      string - the logo title
 */
 
@@ -71,7 +71,7 @@ function chp_login_logo_title() {
  *
  * Changes the login logo url to the site's url
  *
- * @since       1.0
+ * @since       2.0
  * @return      string - the logo url
 */
 

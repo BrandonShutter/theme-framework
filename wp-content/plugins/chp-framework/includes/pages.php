@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -16,7 +16,7 @@ if ( ! defined('ABSPATH') ) exit;
  *
  * Checks to see if a post exists by title. This function WILL return true for trashed posts.
  *
- * @since       1.0
+ * @since       2.0
  * @param       title
  * @return      boolean
 */
@@ -32,7 +32,7 @@ function chp_post_exists( $title ) {
 /**
  * Sets up the default theme pages
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      null
 */
 

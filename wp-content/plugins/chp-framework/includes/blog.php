@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -16,7 +16,7 @@ if ( ! defined('ABSPATH') ) exit;
  *
  * lists all of the categories attached to the post
  *
- * @since       1.0
+ * @since       2.0
  * @param       $excluded - ID of the category to exclude
  * @param       $link - whether or not to make the categories link
  * @param       $separator
@@ -92,7 +92,7 @@ function chp_list_terms( $tax = '', $excluded = false, $link = true, $separator 
 /**
  * Outputs the excerpt
  *
- * @since       1.0
+ * @since       2.0
  * @param       $post - the post to pull the excerpt from
  * @param       $length - the excerpt length
  * @param       $tags - which tags to exclude from being stripped
@@ -132,7 +132,7 @@ function chp_excerpt( $post = null, $length = null, $tags = '', $more = ' ...' )
  *
  * Outputs the pagination links
  *
- * @since       1.0
+ * @since       2.0
  * @param       $echo - whether or not to echo the output
  * @param       $classes - additional classes to add to the container
  * @return      string - the pagination links
@@ -179,7 +179,7 @@ function chp_pagination( $echo = true, $classes = '' ) {
  *
  * Determines whether or not pagination is needed ( if there is more than one page )
  *
- * @since       1.0
+ * @since       2.0
  * @return      boolean
 */
 
@@ -201,7 +201,7 @@ function chp_has_pagination() {
  * atts to img tags by default, and we don't want that when working 
  * with a responsive site )
  *
- * @since       1.0
+ * @since       2.0
  * @param       $post_id - the post ID
  * @param       $size    - the image size
  * @param       $echo    - whether or not to echo the data
@@ -240,7 +240,7 @@ function chp_post_thumbnail( $post_id = null, $size = 'thumbnail', $echo = true 
  * Will retrieve the caption for the post thumbnail by default, but if
  * an ID is passed, it will pull that post's thumbnail caption instead
  *
- * @since       1.0
+ * @since       2.0
  * @param       $post_id - the post ID
  * @param       $echo - whether or not to echo the data
  * @return      string
@@ -270,7 +270,7 @@ function chp_image_caption( $post_id = null, $echo = true ) {
  *
  * Retrieves meta data for the attachment provided.
  *
- * @since       1.0
+ * @since       2.0
  * @param       $id  - the attachment ID
  * @param       $key - the attachment meta to retrieve
  * @return      array || string || boolean
@@ -302,7 +302,7 @@ function chp_get_attachment_meta( $id, $key = null ) {
  *
  * Outputs comments based off the template below
  *
- * @since       1.0
+ * @since       2.0
  * @param       $comment
  * @param       $args
  * @param       $depth
@@ -321,7 +321,7 @@ function chp_comments_template( $comment, $args, $depth ) {
  *
  * Handles the main query in a much more 
  *
- * @since       1.0
+ * @since       2.0
  * @param       $args - custom query args
  * @return      $args
 */
@@ -358,7 +358,7 @@ function chp_main_query_args( $args = array() ) {
  *
  * Changes the default posts per page based on a number of conditionals:
  *
- * @since       1.0
+ * @since       2.0
  * @param       $query - the posts query
  * @return      $query
 */

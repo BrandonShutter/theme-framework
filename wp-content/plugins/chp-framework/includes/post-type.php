@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -15,7 +15,7 @@ if ( ! defined('ABSPATH') ) exit;
  * Resets the permalinks on theme activation so that
  * the Custom Post Types are displayed properly
  * 
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -29,7 +29,7 @@ function chp_clear_permalinks() {
 /**
  * Registers all post types
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -69,7 +69,7 @@ class CHP_Post_Type {
 	 * Registers the CPT
 	 *
 	 * @access      private
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      void
 	*/
 
@@ -135,7 +135,7 @@ class CHP_Post_Type {
 	 * Registers the CPT meta box
 	 *
 	 * @access      private
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      void
 	*/
 
@@ -154,7 +154,7 @@ class CHP_Post_Type {
 	 * Adds the CPT Metabox
 	 *
 	 * @access      private
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      void
 	*/
 
@@ -175,7 +175,7 @@ class CHP_Post_Type {
 	 * Saves the CPT Meta Box
 	 * 
 	 * @access      private
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      void
 	*/
 
@@ -206,7 +206,7 @@ class CHP_Post_Type {
 	/**
 	 * Prepares the CPT meta box by retrieving values for each field
 	 *
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      void
 	*/
 
@@ -225,7 +225,7 @@ class CHP_Post_Type {
 	/**
 	 * Outputs the meta box content
 	 *
-	 * @since       1.0
+	 * @since       2.0
 	 * @return      string - the content
 	*/
 
@@ -238,7 +238,7 @@ class CHP_Post_Type {
 	/**
 	 * Registers the custom columns
 	 *
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      array
 	*/
 
@@ -252,7 +252,7 @@ class CHP_Post_Type {
 	/**
 	 * Defines the custom columns and their order.
 	 *
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      array
 	*/
 
@@ -269,7 +269,7 @@ class CHP_Post_Type {
 	/**
 	 * Renders the custom columns content.
 	 *
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      string - the post columns
 	*/
 
@@ -283,7 +283,7 @@ class CHP_Post_Type {
 	/**
 	 * Outputs the post columns content
 	 *
-	 * @since       1.0 
+	 * @since       2.0 
 	 * @return      string - the content
 	*/
 

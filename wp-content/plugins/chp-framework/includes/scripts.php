@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0  
+ * @since       2.0  
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Enqueues all framework scripts
  *
- * @since       1.0
+ * @since       2.0
  * @return      null
 */
 
@@ -36,10 +36,10 @@ function chp_enqueue_scripts() {
 	}
 	
 	wp_enqueue_script( 'jquery-color', CHP_JS . 'plugins/jquery-color.min.js', array('jquery'), '2.1.1', $in_footer );
-	wp_enqueue_script( 'chp-scripts', CHP_JS . 'chp-scripts.js', array('jquery'), '1.0', $in_footer );
+	wp_enqueue_script( 'chp-scripts', CHP_JS . 'chp-scripts.js', array('jquery'), '2.0', $in_footer );
 
 	if ( is_single() )
-		wp_enqueue_script( 'chp-comment-validation', CHP_JS . 'chp-comment-validation.js', '1.0', $in_footer );
+		wp_enqueue_script( 'chp-comment-validation', CHP_JS . 'chp-comment-validation.js', '2.0', $in_footer );
 
 	if ( isset($post) && $post->ID == get_option('chp-contact-page') ) {
 		wpcf7_enqueue_scripts();
@@ -50,10 +50,10 @@ function chp_enqueue_scripts() {
 	 * Theme Scripts
 	--------------------- */
 
-	wp_enqueue_script( 'theme-scripts', THEME_JS . 'theme-scripts.js', array('jquery'), '1.0', $in_footer );
+	wp_enqueue_script( 'theme-scripts', THEME_JS . 'theme-scripts.js', array('jquery'), '2.0', $in_footer );
 
 	if ( file_exists( get_template_directory() . '/media/js/responsive.js' ) )
-		wp_enqueue_script( 'theme-responsive', THEME_JS . 'responsive.js', array('jquery'), '1.0', $in_footer );
+		wp_enqueue_script( 'theme-responsive', THEME_JS . 'responsive.js', array('jquery'), '2.0', $in_footer );
 
 } add_action( 'wp_enqueue_scripts', 'chp_enqueue_scripts' );
 
@@ -61,7 +61,7 @@ function chp_enqueue_scripts() {
 /**
  * Enqueues all conditional scripts
  *
- * @since       1.0
+ * @since       2.0
  * @return      null
 */
 
@@ -85,7 +85,7 @@ function chp_enqueue_conditional_scripts() {
 /**
  * Outputs the theme's google analytics if set in the theme options panel
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 

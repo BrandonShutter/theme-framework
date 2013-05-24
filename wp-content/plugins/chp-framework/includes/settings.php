@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0  
+ * @since       2.0  
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Sets up the default framework options
  *
- * @since       1.0
+ * @since       2.0
  * @return      null
 */
 
@@ -56,7 +56,7 @@ function chp_default_settings() {
 /**
  * Sets the default user messages for WPCF7
  *
- * @since       1.0
+ * @since       2.0
  * @return      string - the messages
 */
 
@@ -79,7 +79,7 @@ add_filter( 'wpcf7_messages', 'chp_wpcf7_default_messages' );
  *
  * Returns, or echos the option key provided if it was set in the backend
  *
- * @since       1.0
+ * @since       2.0
  * @param       $key - option name
  * @param       $echo - whether or not to echo the data retrieved
  * @return      string || boolean

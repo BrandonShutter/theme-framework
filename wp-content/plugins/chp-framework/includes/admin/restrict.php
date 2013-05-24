@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Restricts certain pages for those who aren't an admin
  *
- * @since       1.0
+ * @since       2.0
  * @return      void
 */
 
@@ -67,7 +67,7 @@ function chp_restrict_admin_pages( $menu_items ) {
 /**
  * Restricts certain pages for those who aren't an admin
  *
- * @since       1.0
+ * @since       2.0
  * @return      void
 */
 

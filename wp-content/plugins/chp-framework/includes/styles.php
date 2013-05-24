@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0  
+ * @since       2.0  
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Enqueues all stylesheets
  *
- * @since       1.0
+ * @since       2.0
  * @return      null
 */
 
@@ -44,7 +44,7 @@ function chp_enqueue_styles() {
 /**
  * Enqueues all conditional styles
  *
- * @since       1.0
+ * @since       2.0
  * @return      null
 */
 
@@ -78,7 +78,7 @@ function chp_enqueue_conditional_styles() {
 /**
  * Outputs the theme's custom css if set in the theme options panel
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 

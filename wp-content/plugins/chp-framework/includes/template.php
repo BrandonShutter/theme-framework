@@ -5,7 +5,7 @@
  * @package     CHP Framework
  * @copyright   Copyright (c) 2013, CHP Advertising
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @since       1.0 
+ * @since       2.0 
 */
 
 // Exit if accessed directly
@@ -14,7 +14,7 @@ if ( ! defined('ABSPATH') ) exit;
 /**
  * Prevents default wordpress filtering from occuring within any [raw] tags
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -46,7 +46,7 @@ add_filter('widget_text', 'chp_formatter', 99);
 /**
  * Adds featured image support for the theme
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      void
 */
 
@@ -60,7 +60,7 @@ function chp_thumbnail_support() {
 /**
  * Simply echos or returns the page name
  *
- * @since       1.0 
+ * @since       2.0 
  * @param       $echo - whether or not the echo the pagename
  * @return      string
 */
@@ -83,7 +83,7 @@ function chp_pagename( $echo = true ) {
 /**
  * Displays the page title
  *
- * @since       1.0
+ * @since       2.0
  * @param       $echo - whether or not to echo the title
  * @return      string
 */
@@ -131,7 +131,7 @@ function chp_page_title( $echo = true ) {
 /**
  * Displays the page tagline ( if it's set )
  *
- * @since       1.0
+ * @since       2.0
  * @param       $echo - whether or not to echo the tagline
  * @return      string
 */
@@ -162,7 +162,7 @@ function chp_page_tagline( $echo = true ) {
 /**
  * Displays the page thumbnail ( if it's set )
  *
- * @since       1.0
+ * @since       2.0
  * @param       $post_id - the post id
  * @param       $echo - whether or not to echo the thumbnail
  * @return      string
@@ -196,7 +196,7 @@ function chp_page_thumbnail( $post_id = null, $echo = true ) {
 /**
  * Displays the site breadcrumbs
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 
@@ -319,7 +319,7 @@ function chp_breadcrumbs( $separator = '&rarr;' ) {
 /**
  * Outputs the site's search form
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 
@@ -345,7 +345,7 @@ function chp_search_form( $text = '' ) {
  * If a sidebar is set to the current page from the theme metabox, then display it.
  * Otherwise, default to the primary theme sidebar ('Sidebar')
  *
- * @since       1.0 
+ * @since       2.0 
  * @return      string
 */
 
@@ -375,7 +375,7 @@ function chp_dynamic_sidebar() {
  *
  * Outputs the site's copyright
  *
- * @since       1.0
+ * @since       2.0
  * @return      string
 */
 
@@ -396,7 +396,7 @@ function chp_copyright() {
  *
  * Retrieves the image provided from the theme images directory. Will return false if the image was not found
  *
- * @since       1.0
+ * @since       2.0
  * @param       $filename - the image to retrieve
  * @param       $local    - whether or not the image is in the theme images directory
  * @param       $echo     - whether or not to echo the image
