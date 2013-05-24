@@ -13,4 +13,4 @@ Our custom WordPress framework. Uses a unique structure where all core functiona
 ## Change Log
 
 * Pushed to 2.0
-* Added <code>flush_rewrite_rules()</code> to 'chp_update_content_links' function, which ensures that all site links work properly after the site url has been changed.
+* Added <code>flush_rewrite_rules()</code> to <code>chp_update_content_links()</code>, which ensures that all site links work properly after the site url has been changed.
